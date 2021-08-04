@@ -1,0 +1,111 @@
+.feature__list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.feature-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container-details{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.container-details h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--main-colour);
+}
+.container-details p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--second-colour);
+}
+.feature__title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.feature__item--details{
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  background-image: url(../images/description.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.feature__item--clock{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-image: url(../images/description-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.feature__item--plan{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+    background-image: url(../images/description-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.feature__item--techno{
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  background-image: url(../images/description-3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--main-colour); 
+}
+h3{
+    list-style: none;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 10px;
+}
+p{
+   margin: 0;
+   padding: 0;
+}
