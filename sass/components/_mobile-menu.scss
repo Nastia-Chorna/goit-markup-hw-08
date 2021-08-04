@@ -14,9 +14,14 @@ color: #212121;
 color: #2196F3;
 }
 @media (min-width: 768px) {
-display: none;
-  }
+.menu-toggle {
+    display: none;
+    }
+}
 }
 .menu-toggle__icon {
 fill: #212121;
-  }
+width: 70px;
+height: 70px;
+}
+

@@ -1,15 +1,15 @@
-@import "./variables";
-@import "./page-header";
-@import "./modal";
-@import "./hero-studio";
-@import "./hero-portfolio";
-@import "./feautures-studio";
-@import "./work-studio";
-@import "./team-studio";
-@import "./clients-studio";
-@import "./footer";
-@import "./body-portfolio";
-@import "./components/mobile-menu";
+@import "./utils/variables" ;
+@import "./components/page-header";
+@import "./components/modal" ;
+@import "./base/hero-studio" ;
+@import "./base/hero-portfolio" ;
+@import "./base/feautures-studio" ;
+@import "./base/work-studio" ;
+@import "./base/team-studio" ;
+@import "./base/clients-studio" ;
+@import "./components/footer" ;
+@import "./base/body-portfolio" ;
+@import "./components/mobile-menu" ;
 
 
 
