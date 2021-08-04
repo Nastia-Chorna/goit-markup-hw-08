@@ -451,7 +451,7 @@ transition-duration: 250ms;
 
 
 /* Сторінка "СТУДИЯ" - hero*/
-.hero h1{
+/*.hero h1{
   text-transform: uppercase;
   font-family: Roboto;
   font-style: normal;
@@ -499,7 +499,7 @@ transition-duration: 250ms;
 .hero__btn:focus {
   color: white;
 }
-
+*/
 /* Сторінка Portfolio*/
 
 /* кнопки*/

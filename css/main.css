@@ -469,7 +469,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*закінчилось спливаюче вікно */
 
-.hero h1 {
+/*.hero h1 {
   text-transform: uppercase;
   font-family: Roboto;
   font-style: normal;
@@ -520,7 +520,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .btn-hero:focus {
   color: white;
 }
-
+*/
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
