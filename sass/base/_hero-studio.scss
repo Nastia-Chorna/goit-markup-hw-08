@@ -17,51 +17,20 @@
     margin-bottom: 0;
 }
 .hero{
-
-min-height: 400px;
-margin-left: auto;
-margin-right: auto;
-padding: 0;
-background-color: #c4c4c4;
-background-image: url('../images/mob.jpg');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-@media (min-device-pixel-ratio: 2) and (min-width: 280px),
-(min-resolution: 192dpi) and (min-width: 280px),
-(min-resolution: 2dppx) and (min-width: 280px){
-    .hero{
-background-image: url('../images/mob@2.jpg');
-}
-}
-
-@media screen and (min-width: 481px) {
-
-   /* max-width: 1600px;
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin: 0 auto;
-    background: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/background.jpg);
+    background: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
     background-size: 1600px;
 }
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-.hero{
-background-image: url(../images/desc@2.img.jpg);
-}
-}
-*/
-
 .btn-hero {
     font-family: Roboto;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 1.8;
-    color: var(--button-color);
+    color: #FFFFFF;
     background-color: #2196F3;
     border-radius: 4px;
     cursor: pointer;
@@ -76,4 +45,4 @@ background-image: url(../images/desc@2.img.jpg);
 .btn-hero:hover,
 .btn-hero:focus {
     color: white;
-}}
+}
