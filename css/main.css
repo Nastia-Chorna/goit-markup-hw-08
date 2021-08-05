@@ -701,6 +701,15 @@ p {
   padding-bottom: 94px;
 }
 
+.work-section{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .work-section{
+      display: block;
+  }
+}
+
 .work-section {
   padding-bottom: 94px;
 }
