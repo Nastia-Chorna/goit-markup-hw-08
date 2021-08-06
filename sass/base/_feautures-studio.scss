@@ -1,4 +1,20 @@
-.feature__list{
+
+
+.container-details{
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+background-color: red;
+}
+
+@media screen and (min-width: 480px){
+    .container-details{
+    width: 480px;
+    margin: 0 auto;}
+}
+
+
+/*.feature__list{
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
@@ -108,4 +124,4 @@ h3{
 p{
    margin: 0;
    padding: 0;
-}
+}*/
