@@ -1,4 +1,36 @@
-.team__description{
+.container-team{
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;   
+}
+
+@media screen and (min-width: 480px){
+    .container-team{
+    width: 480px;
+    margin: 0 auto;}
+}
+
+@media screen and (min-width: 768px) {
+    .container-team{
+    width: 768px;
+    margin: 0 auto;}
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+    .container-team{
+    width: 1200px;
+    margin: 0 auto;}
+    margin-bottom: 30px;   
+}
+
+@media screen and (min-width: 768px){
+    .team{
+    display: flex;
+    }
+}
+
+
+/*.team__description{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 32px;
@@ -74,4 +106,4 @@ p{
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
