@@ -590,7 +590,6 @@ a {
 @media screen and (min-width: 768px) {
   .feature__list {
     display: flex;
-    /*flex-wrap: wrap;*/
     padding: 0;
     margin: 0;
     list-style: none;
@@ -780,6 +779,13 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .feature-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .feature__list {
     display: flex;
@@ -818,10 +824,19 @@ a {
 
 @media screen and (min-width: 768px) {
   .feature__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -30px;
   }
   .feature__list > .feature__part {
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -1026,6 +1041,17 @@ p{
   margin-right: 30px;
 }
 
+@media screen and (max-width: 1999px) {
+  .container-team h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}
+
 .container-team {
   width: 100%;
   padding-left: 15px;
@@ -1043,24 +1069,50 @@ p{
   .container-team {
     width: 768px;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
   .container-team {
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
-  margin-bottom: 30px;
+}
+
+/*.container-team{
+width: 100%;
+padding-left: 15px;
+padding-right: 15px; 
+}
+
+@media screen and (min-width: 480px){
+    .container-team{
+    width: 480px;
+    margin: 0 auto;}
 }
 
 @media screen and (min-width: 768px) {
-  .team {
-    display: flex;
-  }
+    .container-team{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;}
+}
+@media screen and (min-width: 1200px) {
+    .container-team{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;}
 }
 
+@media screen and (min-width: 768px){
+    .team{
+    display: flex;
+    }
+}*/
 /*.team__description{
     padding-top: 30px;
     padding-bottom: 30px;
