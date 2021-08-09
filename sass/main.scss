@@ -2,7 +2,7 @@
 @import "./components/page-header";
 @import "./components/modal" ;
 @import "./base/hero-studio" ;
-@import "./base/hero-portfolio" ;
+@import "./base/buttons-portfolio" ;
 @import "./base/feautures-studio" ;
 @import "./base/work-studio" ;
 @import "./base/team-studio" ;
@@ -10,6 +10,7 @@
 @import "./components/footer" ;
 @import "./base/body-portfolio" ;
 @import "./components/mobile-menu" ;
+@import "./utils/titles-studio";
 
 
 
@@ -420,7 +421,7 @@ margin: 0 auto;
     transition-duration: 250ms;
 }
 
-.portfolio {
+/*.portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -467,7 +468,7 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
-}
+}*/
 
 .clients-section {
     padding: 0;
@@ -478,7 +479,7 @@ a {
 .clients__list:focus {
     color: #2196F3;
 }
-.clients__list {
+/*.clients__list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -489,7 +490,7 @@ a {
             margin-right: 30px;
         }
     }
-}
+}*/
 .clients__icon {
     width: 106px;
     height: 60px;
@@ -512,16 +513,18 @@ a {
     fill: #2196F3;
     border-color: #2196F3;
 }
-.container-clients {
+
+
+/*.container-clients {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    h2 {
-        margin-bottom: 50px;
-    }
-}
+    
+}*/
+
+
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -808,7 +811,7 @@ h5 {
     padding: 0;
     margin-left: 24px;
 }
-.portfolio-list {
+/*.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
@@ -826,7 +829,7 @@ h5 {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-}
+}*/
 
 
 

@@ -1,4 +1,53 @@
-.portfolio{
+
+/*.portfolio{
+@media screen and (max-width: 1999px) {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+}*/
+
+
+.container-portfolio {
+    @media screen and (max-width: 1999px) {
+    margin-bottom: 90px;
+    padding-top: 60px;
+ 
+    }
+  }
+  
+  .buttons {
+    display: flex;
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin: -8px;
+    }
+    @media screen and (min-width: 768px) {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+  }
+  
+  .button-list:not(:last-child) {
+    margin-right: 8px;
+  }
+  .button-list:first-child {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 15px;
+    }
+  }
+
+/*.portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -17,7 +66,7 @@
 .buttons >.button-list:not(:last-child){
     margin-right: 8px;
 }
-  
+ */  
 .button-list_features {
   text-align: center;
   cursor: pointer;
@@ -45,7 +94,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-  
+ 
 a {
     text-decoration: none;
     color: inherit;

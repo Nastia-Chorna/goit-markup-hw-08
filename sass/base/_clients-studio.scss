@@ -1,24 +1,57 @@
-.clients__list {
+.container-clients{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     
-    display: flex;
+    }
+    
+    @media screen and (min-width: 480px){
+    .container-clients{
+        width: 480px;
+        margin: 0 auto;}
+        }
+    @media screen and (min-width: 768px) {
+    .container-clients{
+        width: 768px;
+        margin: 0 auto;
+        margin-bottom: 30px;}    
+        }
+    @media screen and (min-width: 1200px) {
+    .container-clients{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 30px;}      
+    }
+
+
+
+
+.clients__list {
+     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+    @media screen and (min-width: 1200px){
+    flex-wrap: nowrap;
+}
 }
   
 .clients__item {
     @media screen and (max-width: 767px) {
-      flex-basis: calc((100% - 60px) / 2);
-      margin: 15px;
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
     }
     @media screen and (min-width: 768px) {
-      flex-basis: calc((100% - 90px) / 3);
-      margin: 15px;
+    flex-basis: calc((100% - 90px) / 3);
+    margin: 15px;
     }
     @media screen and (min-width: 1200px) {
-      flex-basis: calc((100% - 180px) / 6);
-      margin: 15px;
+    flex-basis: calc((100% - 180px) / 6);
+    margin: 15px;
     }
 }
+
+
+
   
 .clients__link {
     display: flex;
@@ -44,41 +77,7 @@
     }
 }
 
-.container-clients-title{
-@media screen and (min-width: 768){
-    margin-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 1.17;  
-}
 
-@media screen and (min-width: 768){
-    margin-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 1.17;
-    text-align: center;
-    list-style: none;
-}
-@media screen and (min-width: 1200){
-    margin-bottom: 50px; 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.2;
-    color: #212121;
-    text-align: center;
-    list-style: none;
-   margin: 0;
-   padding: 0;
-   margin-bottom: 50px;
-}
-}
 
 
 
@@ -130,9 +129,7 @@
     border-color: #2196F3;
 }
   
-.container-clients h2{
-    margin-bottom: 50px; 
-}
+
   
 .container-clients{
     width: 1200px;
