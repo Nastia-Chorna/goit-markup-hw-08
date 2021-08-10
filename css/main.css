@@ -1773,8 +1773,12 @@ h2 {
 }*/
 @media screen and (min-width: 480px) {
   .site-footer {
+    padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
+  }
+  .footer-social {
+    margin-top: 60px;
   }
 }
 
@@ -1844,7 +1848,6 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
     display: block;
-    padding-top: 60px;
   }
 }
 
@@ -1958,14 +1961,11 @@ p {
     padding: 0;
     margin-top: 20px;
     justify-content: center;
-    margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
     background-color: #2f303a;
   }
   .my-footer {
@@ -2123,13 +2123,16 @@ p {
 
 /* tablet */
 @media screen and (max-width: 1199px) {
+  .site-footer__container {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
   .site-footer__two {
-    width: 100%;
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
     flex-wrap: wrap;
-    padding-top: 60px;
     justify-content: space-between;
     align-items: baseline;
   }
@@ -2150,29 +2153,55 @@ p {
 }
 
 /* desktop */
-@media screen and (min-width: 1200px) {
-  footer {
+/*@media screen and (min-width: 1200px){
+footer{
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-  .footer-social {
+    
+    }
+.footer-social{
     padding: 0;
-  }
-  .footer-social__list {
+    } 
+.footer-social__list {
     width: 206px;
     margin: 0;
     padding: 0;
     margin-top: 20px;
-    justify-content: space-between;
-  }
-  .site-footer__container {
+   justify-content: space-between;
+}
+.site-footer__container{
     padding: 0;
     margin: 0;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: baseline;
+}
+.site-footer__two{
+    display: flex;    
+}
+}*/
+@media screen and (min-width: 1200px) {
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .site-footer__container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
   .site-footer__two {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-social {
+    max-width: 206px;
+    margin-left: 70px;
+    margin-right: 93px;
   }
 }
 
