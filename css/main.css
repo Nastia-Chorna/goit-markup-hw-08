@@ -1940,52 +1940,50 @@ p {
   margin-bottom: 60px;
 }
 
-/*footer{
+@media screen and (min-width: 1200px) {
+  footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
-}
-  
-.my-footer {
+  }
+  .my-footer {
     width: 20px;
     height: 20px;
     fill: white;
     justify-content: center;
     align-items: center;
-}
-.footer-social{
-  padding: 0;
-} 
-.footer-social__list {
-  width: 206px;
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-  justify-content: space-between;
-  
-}
-.footer-social__list > .footer-social__item:not(:last-child){
+  }
+  .footer-social {
+    padding: 0;
+    justify-content: space-between;
+  }
+  .footer-social__list {
+    width: 206px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .footer-social__list > .footer-social__item:not(:last-child) {
     margin-right: 10px;
-}
-.footer-social__icon{
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  border-radius: 50px;
-  justify-content: center;
-  transition-property:background-color;
-  align-items: center;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
-.footer-social__icon:hover,
-.footer-social__icon:focus{
-  background-color: #2196F3;
-}
-  
-.contact-box p{
+  }
+  .footer-social__icon {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    transition-property: background-color;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-social__icon:hover,
+  .footer-social__icon:focus {
+    background-color: #2196F3;
+  }
+  .contact-box p {
     font: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -1993,12 +1991,11 @@ p {
     line-height: 1.7px;
     color: #FFFFFF;
     margin-bottom: 9px;
-}
-.contact-box__item{
+  }
+  .contact-box__item {
     color: rgba(255, 255, 255, 0.6);
-}
-    
-.footer-social__title {
+  }
+  .footer-social__title {
     font-family: Roboto;
     font-weight: 700;
     font-style: normal;
@@ -2006,8 +2003,8 @@ p {
     line-height: 1.17px;
     color: white;
     margin-bottom: 20px;
-}
-.mailing-form {
+  }
+  .mailing-form {
     margin-left: 93px;
     font-weight: 700;
     font-size: 14px;
@@ -2015,8 +2012,8 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2f303a;
-}
-.mailing-form__text {
+  }
+  .mailing-form__text {
     align-content: center;
     font-weight: bold;
     font-size: 14px;
@@ -2024,14 +2021,13 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #fff;
-}
-.js-mailing-form {
+  }
+  .js-mailing-form {
     display: flex;
     width: 570px;
     margin-top: 20px;
-}
-  
-.js-mailing-form__input {
+  }
+  .js-mailing-form__input {
     width: 358px;
     height: 50px;
     background-color: #2F303A;
@@ -2042,8 +2038,8 @@ p {
     box-sizing: border-box;
     border-radius: 4px;
     outline: none;
-}
-.sub-button {
+  }
+  .sub-button {
     position: relative;
     width: 200px;
     height: 50px;
@@ -2060,9 +2056,8 @@ p {
     letter-spacing: 0.06em;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
-.sub-button::after {
+  }
+  .sub-button::after {
     background-image: url(../images/send.svg);
     width: 24px;
     height: 24px;
@@ -2071,13 +2066,12 @@ p {
     top: 13px;
     right: 28px;
     fill: #fff;
-}
-.sub-button:hover,
-.sub-button:focus {
+  }
+  .sub-button:hover,
+  .sub-button:focus {
     background-color: #2196F3;
-}
-  
-.site-footer__logo {
+  }
+  .site-footer__logo {
     color: #ffffff;
     font-family: Raleway;
     font-style: normal;
@@ -2086,25 +2080,25 @@ p {
     line-height: 1.2;
     margin-bottom: 20px;
     display: block;
-}
-.site-footer__logo a {
+  }
+  .site-footer__logo a {
     margin-bottom: 20px;
-}
-.media > .footer-social__item:not(:last-child){
+  }
+  .media > .footer-social__item:not(:last-child) {
     margin-right: 10px;
+  }
+  h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 9px;
+  }
 }
-  
-h6 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.5;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 9px;
-}
-  */
+
 .container-portfolio {
   width: 100%;
   padding-left: 15px;
