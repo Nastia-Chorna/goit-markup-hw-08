@@ -25,18 +25,34 @@
   .btn-close__icon:hover{
     fill: #2196F3;
 }
+
+@media screen and (min-width: 768px){
+    .modal{
+
+    }
+    
+}
 .modal{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-  
-    width: 528px;
-    height: 581px;
     background-color: #FFFFFF;
     padding: 40px 43px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px; 
+
+    @media screen and (min-width: 480px){
+        width: 450px;
+        height: 609px;    
+    } 
+    @media screen and (min-width: 768px){
+        width: 450px;
+        height: 609px;   
+    } 
+    @media screen and (min-width: 1200px){
+    width: 528px;
+    height: 581px; }
 }
 .modal-button{
   position: absolute;
@@ -58,8 +74,22 @@
 .modal-button:focus{
     fill: #2196F3;
 }
-  
-.js-order-form__title{
+ 
+@media screen and (max-width: 1999px){
+    .js-order-form__title{
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+}
+@media screen and (min-width: 1200px){
+    .js-order-form__title{
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -70,24 +100,29 @@
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
+}
+
   
-  .js-order-form{
+.js-order-form{
     display: flex;
     flex-direction: column;
 }
   
+
+
 .js-order-form__field{
-  text-align: left;
-  display: block;
-  margin-bottom: 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.16;
-  color: #757575;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    color: #757575;
 }
-  
+
+
 .js-order-form__label{
     position: relative;
     display: block;
@@ -199,21 +234,47 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media screen and (max-width: 1999px){
+    .js-order-form__consent-text{
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-left: 8px; 
+}
+}
+
+@media screen and (min-width: 1200px){
 .js-order-form__consent-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--color-text);
+    color: #757575;
     padding-left: 8.38px;
 }
+}
+@media screen and (max-width: 1999px){
 .js-order-form__contract {
     text-decoration: underline;
     color: #188CE8;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.16;
+}
+}
+@media screen and (min-width: 1200px){
+    .js-order-form__contract {
+        text-decoration: underline;
+        color: #188CE8;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+}
 }
 .agreement-conditions{
     color: #2196f3;
@@ -225,7 +286,7 @@
     font-style: normal;
     font-size: 16px;
     line-height: 1.8;
-    color: var(--button-color);
+    color: #FFFFFF;
     background-color: #2196F3;
     border-radius: 4px;
     cursor: pointer;
