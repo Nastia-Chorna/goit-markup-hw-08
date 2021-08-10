@@ -8,6 +8,9 @@ padding-right: 15px;
 .container-details{
 width: 480px;
 margin: 0 auto;}
+.feature__list > .feature__part:not(:last-child){
+    margin-bottom: 30px;
+}
 }
 @media screen and (min-width: 768px) {
 .container-details{
@@ -191,11 +194,12 @@ text-align: left;
 
 @media screen and (min-width: 768px) {
     .feature__list{
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;}
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;}
     .feature__list > .feature__part{
     flex-basis: calc((100% - 60px) / 2);
     margin: 15px;   
@@ -217,7 +221,7 @@ text-align: left;
 .feature__list{
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
+    margin: -15px;
 }
 .feature__list > .feature__part{
     flex-basis: calc((100% - 120px) / 4);

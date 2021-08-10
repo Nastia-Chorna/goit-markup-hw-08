@@ -10,6 +10,11 @@
 }
 }*/
 
+.container-portfolio{
+  @media screen and (max-width: 1200px) {
+padding-top: 94px;
+  }
+}
 
 .container-portfolio {
     @media screen and (max-width: 1999px) {
@@ -22,6 +27,7 @@
   .buttons {
     display: flex;
     @media screen and (max-width: 767px) {
+      padding-bottom: 40px;
       flex-wrap: wrap;
       align-content: space-between;
       margin: -8px;
@@ -31,13 +37,18 @@
       margin-bottom: 30px;
     }
     @media screen and (min-width: 1200px) {
-    padding-top: 94px;
+   
       flex-wrap: nowrap;
       justify-content: center;
       margin-bottom: 50px;
     }
   }
-  
+  @media screen and (max-width: 767px) {
+    .butt{
+      margin-bottom: 15px;
+    }
+  }
+
   .button-list:not(:last-child) {
     margin-right: 8px;
   }
