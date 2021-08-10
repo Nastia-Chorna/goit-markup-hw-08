@@ -54,11 +54,86 @@
 
             </li>
         </ul>
+<!--мобільна версія - шапка-->
+<button
+class="menu-toggle js-open-menu"
+aria-expanded="false"
+aria-controls="mobile-menu"
+aria-label="Відкрити меню"
+>
+<svg
+  class="menu-toggle__icon"
+  width="40px"
+  height="40px"
+  aria-label="Переключатель моб меню"
+>
+  <use href="./images/symbol-menu-defs.svg#icon-menusvg"></use>
+</svg>
+</button>
 
-      </div>
-    </header>
+</div>
+</header>
+
 
 <main>
+    <!--Вміст вікна для моб версії-->
+
+            
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu" aria-label="Закрыть">
+          <svg class="js-close-menu__icon" width="40px" height="40px">
+            <use href="./images/cross-defs.svg.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <div class="mobile-nav">
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+              <a href="./index.html" class="mobile-nav__link mobile-nav__link--current">Студия</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="./portfolio.html" class="mobile-nav__link">Портфолио</a>
+            </li>
+            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="mobile-contacts">
+          <ul class="mobile-contacts__list">
+            <li class="mobile-contacts__item">
+              <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--tel">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="mobile-contacts__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-contacts__link mobile-contacts__link--mail"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-social">
+          <ul class="mobile-social__list">
+            <li class="mobile-social__item">
+              <a href="#" class="mobile-social__link">Instagram</a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="#" class="mobile-social__link">Twitter</a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="#" class="mobile-social__link">Facebook</a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="#" class="mobile-social__link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+</section>
+
+
    <!-- Main section -->
 <section class="portfolio">
 <div class="container-portfolio">
@@ -430,8 +505,8 @@ type="image/jpg">
 
 <!-- Футер -->
 <footer class="site-footer">
-    <div class="container site-footer__container">
-      <div class="container-two">
+    <div class="site-footer__container">
+    <div class="site-footer__two">
         <div class="contact-box">
         <a class="site-footer__logo" href="./index.html"><span>Web</span>Studio</a>
         
@@ -451,41 +526,45 @@ type="image/jpg">
         </div>  
       
 
-        <div class="footer-social">
-            <h3 class="footer-social__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-            <ul class="footer-social__list">
-                <li class="footer-social__item">
-                  <a class="footer-social__icon" href="">
-                      <svg class="button-icon my-footer">
-                          <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
-                  </a>
-                </li>
-                <li class="footer-social__item">
-                    <a class="footer-social__icon" href="">
-                        <svg class="button-icon my-footer">
-                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social__item">
-                    <a class="footer-social__icon" href="">
-                        <svg class="button-icon my-footer">
-                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social__item">
-                    <a class="footer-social__icon" href="">
-                        <svg class="button-icon my-footer">
-                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-        </ul>
-       
-        </div>
-    </div>         
+    <div class="footer-social">
+
+    <h3 class="footer-social__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+    <ul class="footer-social__list">
+        <li class="footer-social__item">
+        <a class="footer-social__icon" href="">
+            <svg class="button-icon my-footer">
+                <use href="./images/symbol-defs.svg#icon-instagram "></use>
+            </svg>
+        </a>
+        </li>
+
+        <li class="footer-social__item">
+        <a class="footer-social__icon" href="">
+            <svg class="button-icon my-footer">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+        </a>
+        </li>
+
+        <li class="footer-social__item">
+        <a class="footer-social__icon" href="">
+            <svg class="button-icon my-footer">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+        </a>
+        </li>
+
+        <li class="footer-social__item">
+        <a class="footer-social__icon" href="">
+            <svg class="button-icon my-footer">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg> 
+        </a>
+        </li>
+    </ul>
+
+    </div>
+</div>      
 <div class="mailing-form">
     <span class="mailing-form__text">Подпишитесь на рассылку</span>
     <form class="js-mailing-form">
